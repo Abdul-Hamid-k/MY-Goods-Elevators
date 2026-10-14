@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MY Goods and Elevation – Lifts &amp; Elevators</title>
+<meta name="description" content="MY Goods and Elevation supplies, installs and services goods lifts, passenger elevators and lifting equipment.">
+<link rel="stylesheet" href="styles.css">
+<script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+</head>
+<body>
+<header class="nav">
+  <a class="logo" href="#top">MY <span>Goods &amp; Elevation</span></a>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#work">Our Work</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button id="theme" aria-label="Toggle light/dark theme">◐</button>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <h1>Lifting your business <em>higher</em>.</h1>
+    <p>Goods lifts, passenger elevators and lifting equipment – supplied, installed and serviced.</p>
+    <div class="cta">
+      <a class="btn" href="#contact">Get a Quote</a>
+      <a class="btn ghost" href="#work">See Our Work</a>
+    </div>
+  </section>
+
+  <section id="services">
+    <h2>Services</h2>
+    <div class="grid cards">
+      <article><h3>Goods Lifts</h3><p>Heavy-duty lifts for warehouses, factories and shops.</p></article>
+      <article><h3>Passenger Elevators</h3><p>Smooth, safe elevators for homes and buildings.</p></article>
+      <article><h3>Installation</h3><p>Expert fitting with safety checks and handover.</p></article>
+      <article><h3>Maintenance &amp; Repair</h3><p>Scheduled servicing and fast breakdown support.</p></article>
+    </div>
+  </section>
+
+  <section id="work">
+    <h2>Proof of Work</h2>
+    <p class="muted">Real installations by our team. Add your files to <code>assets/images</code> and <code>assets/videos</code>, then list them in <code>script.js</code>.</p>
+    <div id="gallery" class="grid gallery"></div>
+  </section>
+
+  <section id="about">
+    <h2>Why MY Goods and Elevation</h2>
+    <ul class="ticks">
+      <li>Safety-first installation</li>
+      <li>Quality components</li>
+      <li>Responsive after-sales service</li>
+      <li>Transparent pricing</li>
+    </ul>
+    <p class="muted">Catalogue of our lift models coming soon.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Call / WhatsApp: <a href="tel:+910000000000">+91 00000 00000</a> · <a href="mailto:info@example.com">info@example.com</a></p>
+    <form onsubmit="event.preventDefault();alert('Prototype: form not connected yet.')">
+      <input required placeholder="Name" aria-label="Name">
+      <input required placeholder="Phone" aria-label="Phone">
+      <textarea placeholder="What do you need?" aria-label="Message"></textarea>
+      <button class="btn">Send Enquiry</button>
+    </form>
+  </section>
+</main>
+
+<footer>© <span id="year"></span> MY Goods and Elevation</footer>
+<dialog id="lightbox"><button id="close" aria-label="Close">✕</button><div id="lbBody"></div></dialog>
+<script src="script.js"></script>
+</body>
+</html>
