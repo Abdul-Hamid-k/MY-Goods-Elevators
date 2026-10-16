@@ -10,8 +10,8 @@
 }
 :root[data-theme='light'] {
   color-scheme: light;
-  --bg: #f6f6f4; --bg2: #ececE8; --fg: #1b1e23; --muted: #5d646e;
-  --card: #ffffff; --line: #dcdcd6; --accent: #c98a0a; --accent-ink: #ffffff;
+  --bg: #f3eee2; --bg2: #eae3d2; --fg: #25211a; --muted: #655c4d;
+  --card: #faf6ec; --line: #d8cfb9; --accent: #b87a06; --accent-ink: #fffaf0;
 }
 
 * { box-sizing: border-box; }
